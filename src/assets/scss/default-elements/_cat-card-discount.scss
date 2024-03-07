@@ -1,0 +1,68 @@
+.cat-card-discount {
+  font-size: 26px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right: -20px;
+  top: 8px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  color: #fff;
+  background-color: $secondary-color;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -6px 6px 6px rgba(0, 0, 0, .2);
+  @extend .bg-radial;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .2s cubic-bezier(.32,.08,.24,1), box-shadow .2s cubic-bezier(.32,.08,.24,1), scale .2s cubic-bezier(.32,.08,.24,1),color .2s cubic-bezier(.32,.08,.24,1);
+  animation: .6s ease-in discount-appear;
+
+  &:hover {
+    transform: translateX(-20px);
+    color: $primary-color;
+  }
+
+  &.active {
+    color: $primary-color;
+  }
+
+  @include laptop {
+    font-size: 22px;
+  }
+
+  @include tablet {
+    font-size: 20px;
+  }
+
+  @include mobile-large {
+    top: 4px;
+  }
+
+  &__text {
+    color: #212121;
+    padding: 20px 28px;
+
+    @include tablet {
+      padding: 12px 28px;
+    }
+
+    @include mobile {
+      padding: 12px 28px 12px 10px;
+    }
+
+  }
+  &__bottom {
+    font-family: $montserrat;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, .2);
+    text-decoration: underline;
+
+    @include mobile {
+      padding: 8px 20px 8px 10px;
+    }
+  }
+}

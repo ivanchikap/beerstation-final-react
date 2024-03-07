@@ -1,0 +1,35 @@
+.main {
+
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+
+  &__col {
+    display: flex;
+    width: 33.3333%;
+    padding: 0 10px;
+
+    &:not(:nth-child(-n + 3)) {
+      margin-top: 20px;
+    }
+
+    @include tablet {
+      width: 50%;
+
+
+      &:not(:nth-child(-n + 2)) {
+        margin-top: 20px;
+      }
+    }
+
+    @include mobile {
+      width: 100%;
+
+      &:not(:nth-child(-n + 1)) {
+        margin-top: 20px;
+      }
+    }
+  }
+}

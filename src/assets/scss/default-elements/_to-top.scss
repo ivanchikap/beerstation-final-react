@@ -1,0 +1,17 @@
+.to-top {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  fill: $primary-color;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .2s linear;
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

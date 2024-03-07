@@ -1,0 +1,31 @@
+.footer {
+  padding: 34px 0;
+  font-size: 20px;
+  font-family: $montserrat;
+  font-weight: 600;
+  background: linear-gradient(181deg, rgba(255,255,255,.95) 0%, rgba(67,160,71,0.6306897759103641) 100%);
+  border-radius: 10px 10px 0 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile {
+      justify-content: center;
+    }
+  }
+
+  &__item {
+    @extend .flex-items-center;
+    transition: color .2s linear;
+
+    @include mobile {
+      display: none;
+    }
+
+    &:hover {
+      color: #000;
+    }
+  }
+}

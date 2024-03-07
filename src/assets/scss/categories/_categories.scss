@@ -1,0 +1,31 @@
+.categories {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 20px 10px 20px;
+
+  @include tablet {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  @include mobile-large {
+    max-width: 100%;
+  }
+
+  &__item {
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+
+    @include laptop {
+      padding: 10px;
+    }
+
+    @include mobile-large {
+      width: 100%;
+    }
+  }
+}

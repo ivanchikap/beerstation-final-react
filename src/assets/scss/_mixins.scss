@@ -1,0 +1,59 @@
+// 1440px - widescreen
+// 1200px - laptop
+// 992px - tablet
+// 768px - mobile-large
+// 576px - mobile
+
+@mixin widescreen {
+  @media screen and (max-width: $widescreen) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (max-width: $laptop) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}
+@mixin tablet-landscape {
+  @media screen and (max-width: $tablet) and (orientation: landscape) {
+    @content;
+  }
+}
+@mixin mobile-large {
+  @media screen and (max-width: $mobile-large) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+@mixin mobile-large-landscape {
+  @media screen and (max-width: $mobile-large) and (orientation: landscape) {
+    @content;
+  }
+}
+
+.bg-radial {
+  border-radius: 16px;
+  //background-color: rgba(248,248,252,.85);
+  backdrop-filter: blur(15px) saturate(86%);
+  background: radial-gradient(circle at 100% 0,hsla(0,0%,100%,.6) 0,hsla(0,0%,96.1%,.13) 183%);
+}
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

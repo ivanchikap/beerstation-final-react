@@ -1,0 +1,15 @@
+.btn {
+  font-family: $montserrat;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid $secondary-color;
+  background-color: transparent;
+  transition: color .2s linear, background-color .2s linear;
+
+  &:hover {
+    color: #fff;
+    background-color: $secondary-color;
+  }
+}

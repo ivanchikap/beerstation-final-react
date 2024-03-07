@@ -1,0 +1,132 @@
+.header {
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: #fff;
+  box-shadow: -10px 10px 10px rgba(#000, .3);
+  border-radius: 0 0 10px 10px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $montserrat;
+
+    @include tablet {
+      font-size: 20px;
+    }
+
+    @include mobile-large {
+      font-size: 18px;
+    }
+  }
+
+  &__info {
+    max-width: calc(82% - 130px);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    @include laptop {
+      flex-direction: column;
+    }
+
+    @include tablet {
+      max-width: calc(78% - 120px);
+    }
+
+    @include mobile-large {
+      max-width: calc(78% - 100px);
+      align-items: start;
+      padding: 0 8px;
+    }
+
+    @include mobile {
+      max-width: 100%;
+      padding-right: 0;
+    }
+  }
+
+  &__icon {
+    height: 20px;
+    margin-right: 6px;
+    fill: #333;
+    flex-shrink: 0;
+    transition: fill .2s linear;
+
+    @include tablet {
+      height: 22px;
+    }
+
+    @include mobile-large {
+      height: 20px;
+    }
+  }
+
+  &__item {
+    @extend .flex-items-center;
+    transition: color .2s linear;
+    padding-right: 12px;
+
+    @include laptop {
+      padding-right: 0;
+      max-width: 100%;
+    }
+
+    &:first-child {
+      @include laptop {
+        margin-bottom: 18px;
+      }
+      @include mobile-large {
+        margin-bottom: 12px;
+      }
+      span {
+        @extend .text-nowrap;
+      }
+    }
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: 12px;
+      border-left: 1px dashed #333;
+
+      @include laptop {
+        border-left: none;
+        padding-left: 0;
+        max-width: 100%;
+      }
+    }
+
+    &:hover {
+      color: $secondary-color;
+
+      svg {
+        fill: $secondary-color;
+      }
+    }
+
+    .footer & {
+      &:hover {
+        color: #ccc;
+
+        svg {
+          fill: #ccc;
+        }
+      }
+    }
+  }
+
+  &__time {
+    @extend .flex-items-center;
+    max-width: 18%;
+
+    @include tablet {
+      max-width: 22%;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  font-family: $open-sans;
+  color: #212121;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  background-color:#efefef;
+
+  &.no-scroll {
+    overflow-y: hidden;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden;
+
+  @include mobile-large {
+    padding: 30px 0;
+  }
+
+  @include mobile {
+    padding: 10px 0;
+  }
+}
+
+footer {
+  margin-top: auto;
+}
+
+.hidden-title {
+  visibility: hidden;
+  height: 0;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.link {
+  @extend .link-ext;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.spinner {
+  justify-content: center;
+  align-items: center;
+}
+
+.line-through {
+  font-size: 30px;
+  text-decoration: line-through;
+  color: lighten(#000, 40%);
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: rgba(0,0,0,0.4) !important;
+
+  &:hover {
+    background: rgba(0,0,0,0.6);
+  }
+}
