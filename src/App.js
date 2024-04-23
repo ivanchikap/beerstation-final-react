@@ -15,18 +15,36 @@ const ProductModalPage = lazy(() => import("./pages/ProductModalPage"))
 
 function App() {
     const [products, setProducts] = useState([]);
-    const [shop, setShop] = useState('shopTeteriv') //localstorageGet
-    let apiUrl = `http://localhost:4000/${shop}`;
+    const [shops, setShops] = useState([])
+    const [shop, setShop] = useState('Beer_Station_1') //localstorageGet
+    let apiUrl = `http://localhost:4000`;
     const [info, setInfo] = useState({});
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
 
 
     useEffect(() => {
+        const getShops = async () => {
+            try {
+                const shops = await fetchApi.fetchInfo(`${apiUrl}/shops`)
+                setShops(() => [...shops]);
+                setShop(shops[0].name)
+            } catch (e) {
+                setError(e.message)
+            } finally {
+                setLoading(false)
+            }
+        }
+        getShops()
+    }, [apiUrl])
+
+    // console.log(shops[0]);
+
+    useEffect(() => {
         const getInfo = async () => {
             try {
                 setLoading(true)
-                const allInfo = await fetchApi.fetchInfo(apiUrl)
+                const allInfo = await fetchApi.fetchInfo(`${apiUrl}/${shop}`)
                 const {generalInfo, products: allProducts} = allInfo
                 setInfo(generalInfo)
                 setProducts(allProducts)
@@ -37,10 +55,10 @@ function App() {
             }
         }
         getInfo()
-    }, [apiUrl])
+    }, [apiUrl, shop])
 
     return (
-        <ShopContext.Provider value={{shop, setShop}}>
+        <ShopContext.Provider value={{shop, setShop, shops, setShops}}>
             <InfoContext.Provider value={{info, setInfo}}>
                 <ProductsContext.Provider value={{products, setProducts}}>
                     <Suspense fallback={<Spinner/>}>

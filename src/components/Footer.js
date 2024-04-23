@@ -2,7 +2,7 @@ import {useContext} from "react";
 import {InfoContext} from "../context/InfoContext";
 
 const Footer = () => {
-    const {info, setInfo} = useContext(InfoContext)
+    const {info} = useContext(InfoContext)
     return (
         <footer className="footer">
             <div className="container">

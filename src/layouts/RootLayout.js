@@ -10,7 +10,7 @@ import {ProductsContext} from "../context/ProductsContext";
 import Shop from "../components/Shop";
 
 const RootLayout = ({error, loading}) => {
-    const {products, setProducts} = useContext(ProductsContext)
+    const {products} = useContext(ProductsContext)
     let prodTypes = [];
     const productTypesAll = products.map(prod => prod.type);
     [...prodTypes] = new Set(productTypesAll);

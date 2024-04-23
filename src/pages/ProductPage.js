@@ -5,7 +5,7 @@ import {useContext} from "react";
 import {ProductsContext} from "../context/ProductsContext";
 
 const ProductPage = ({type}) => {
-    const {products: allProducts, setProducts} = useContext(ProductsContext)
+    const {products: allProducts} = useContext(ProductsContext)
     const ref = useRef(null);
 
     let products = useMemo(() => [], []);

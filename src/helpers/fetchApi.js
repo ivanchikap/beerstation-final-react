@@ -8,4 +8,14 @@ const fetchInfo = async (apiUrl) => {
     return await res.json()
 }
 
-export default {fetchInfo}
+const fetchShops = async (apiUrl) => {
+    const res = await fetch(`${apiUrl}`)
+
+    if (!res.ok) {
+        throw Error(`Something wrong during fetch shops: ${res.status} ${res.statusText}`)
+    }
+
+    return await res.json()
+}
+
+export default {fetchShops, fetchInfo}

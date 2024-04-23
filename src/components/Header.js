@@ -4,7 +4,7 @@ import {useContext} from "react";
 import {InfoContext} from "../context/InfoContext";
 
 const Header = () => {
-    const {info, setInfo} = useContext(InfoContext)
+    const {info} = useContext(InfoContext)
     const {phoneHref, phone, address, googleMapsLink, timeStart, timeFinish, dns} = info;
 
     return (

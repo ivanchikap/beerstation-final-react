@@ -1,5 +1,5 @@
 {
-  "shopTeteriv": {
+  "Beer_Station_1": {
     "products": [
       {
         "id": 1,
@@ -27,9 +27,7 @@
             "alt": "сидр,зображення"
           }
         ],
-        "desc": [
-          "Напій має приємний свіжий смак , в якому приємна яблучна кислинка ідеально поєднується з екзотичною солодкістю манго та персика."
-        ]
+        "desc": "Напій має приємний свіжий смак , в якому приємна яблучна кислинка ідеально поєднується з екзотичною солодкістю манго та персика."
       },
       {
         "id": 2,
@@ -1478,7 +1476,7 @@
       "dns": "https://beerstation.in.ua"
     }
   },
-  "shopMygalki": {
+  "Beer_Station_2": {
     "products": [
       {
         "id": 1,
@@ -2956,5 +2954,1501 @@
       "timeFinish": "23:00",
       "dns": "https://beerstation.in.ua"
     }
-  }
+  },
+  "Beer_Station_3": {
+    "products": [
+      {
+        "id": 1,
+        "name": "cidr-mango-peach",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/cidre-logo.png",
+        "title": "Мигалки.Cidre Royal, манго-персик",
+        "subtitle": "МИГАЛКИ. Роял Фрут Гарден, кисло-солодкий сидр",
+        "alcohol": "5",
+        "price": "55₴",
+        "metering": "1кг",
+        "isInShop": false,
+        "isInShopText": "У дорозі",
+        "discount": true,
+        "discountType": "lowerPrice",
+        "discountText": "Ціна знижена",
+        "discountedPrice": "50₴",
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cidre-manho-persyk.jpg",
+            "alt": "сидр,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cidre-logo-m.png",
+            "alt": "сидр,зображення"
+          }
+        ],
+        "desc": [
+          "Напій має приємний свіжий смак , в якому приємна яблучна кислинка ідеально поєднується з екзотичною солодкістю манго та персика."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "cidr-cactus",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kaktus.png",
+        "title": "Миг.Сидр ЕДЕМ, лонгер Кактус",
+        "subtitle": "Миг.Пікантний та яскравий смаковий букет",
+        "alcohol": "5",
+        "price": "55₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": true,
+        "discountType": "lowerPrice",
+        "discountText": "Ціна знижена",
+        "discountedPrice": "50₴",
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kaktus-m.png",
+            "alt": "сидр,зображення"
+          }
+        ],
+        "desc": [
+          "Колючі бульбашки піднімають настрій. Після келиха сидру, швидше за все, захочеться одягнутись у сомбреро і зіграти на укулелі, так що кличте друзів і влаштовуйте галасливі посиденьки. Відмінно освіжає і вгамовує спрагу."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "cidr-medusa",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/cidre-logo.png",
+        "title": "Cidre Royal, фруктель Медуза",
+        "subtitle": "Роял Фрут Гарден, пікантний та яскравий сидр",
+        "alcohol": "5",
+        "price": "55₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": true,
+        "discountType": "count",
+        "discountText": "1 + 1",
+        "discountedPrice": "",
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cidre-medusa.jpg",
+            "alt": "сидр,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cidre-logo-m.png",
+            "alt": "сидр,зображення"
+          }
+        ],
+        "desc": [
+          "Напій \"Медуза\" – вишуканий, авторський, крафтовий коктейль. Він характеризується ананасово-журавлинним смаком з легким персиковим відтінком."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "cidr-fragolino",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/cidre-logo.png",
+        "title": "Cidre Royal, фраголіно",
+        "subtitle": "Роял Фрут Гарден, купажний напівсолодкий сидр",
+        "alcohol": "5",
+        "price": "55₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": true,
+        "discountType": "count",
+        "discountText": "2 + 1",
+        "discountedPrice": "",
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/fragolino-m.jpg",
+            "alt": "сидр,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cidre-logo-m.png",
+            "alt": "сидр,зображення"
+          }
+        ],
+        "desc": [
+          "Fragolino Cidre Royal - якісний розливний сидр. Історія створення сидру Fragolino Cidre Royal бере свій початок у мальовничому місті Золотоноша, розташованому в центральній частині України. Оточений садами та фруктовими плантаціями, Золотоноша стала ідеальним місцем для розвитку виробництва сидру.",
+          "Створення сидру Fragolino Cidre Royal почалося з акуратного відбору сортів яблук та вивчення їх характеристик. Було розроблено рецепт, заснований на традиційних методах виробництва сидру, а також впроваджено інноваційні рішення, що дозволяють досягти виняткового смаку та аромату напою.",
+          "Процес виробництва сидру Fragolino Cidre Royal суворо контролюється на всіх етапах - від збирання яблук до розливу напою в кегі. Використовується лише свіжий сік високоякісних яблук, а також передові технології та обладнання для ферментації, дозрівання та фільтрації сидру."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "beer-cheske",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/cheske.jpg",
+        "title": "Чеське світле",
+        "subtitle": "Український пивний холдинг, світле пастеризоване пиво",
+        "alcohol": "5.1",
+        "density": "12",
+        "bitterness": "12",
+        "price": "62₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cheske-m1.jpg",
+            "alt": "пиво чеське,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/cheske-m.jpg",
+            "alt": "пиво чеське,зображення"
+          }
+        ],
+        "desc": [
+          "Пиво має незабутній легкий смак солодового напою в поєднанні з хмільною гіркотою. Прозорий ячмінний колір, відмінно скомбінований і яскраво виражений букет смакових якостей пінистого пива «Чеське» не залишить байдужим самого прискіпливого гурмана."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "beer-opillia",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/opillia.jpg",
+        "title": "Опілля корифей",
+        "subtitle": "Тернопільська пивоварня \"Опілля\", світлий лагер",
+        "alcohol": "4.2",
+        "density": "11",
+        "bitterness": "15",
+        "price": "65₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/opillia-m.jpg",
+            "alt": "пиво опілля,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/opillia-m1.jpg",
+            "alt": "пиво опілля,зображення"
+          }
+        ],
+        "desc": [
+          "\"Корифей\" - це особливий сорт українського пива. Він поєднує у собі всі найкращі якості справжнього класичного пива Європи лагерного типу.",
+          "Пиво \"Опілля Корифей\" має солодовий смак із помірною хмелевою гіркотою. Дарує приємний післясмак із нотками солодової солодинки. Це класичне пиво старої Європи, зварене за традиційною рецептурою \"Баварського пивного закону\" 1516 року. Воно дарує чистий смак пива і тільки пива."
+        ]
+      },
+      {
+        "id": 7,
+        "name": "beer-berdychiv",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/berdychiv.png",
+        "title": "Бердичівське пшеничне GOLD",
+        "subtitle": "Бердичівський пивний завод, пшеничне нефільтроване",
+        "alcohol": "3.4",
+        "density": "12",
+        "bitterness": "11.6",
+        "price": "62₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/berdychiv-m1.jpeg",
+            "alt": "пиво Бердичыв GOLD,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/berdychiv-pshen-m.jpg",
+            "alt": "пиво Бердичыв GOLD,зображення"
+          }
+        ],
+        "desc": [
+          "Світле пиво, з м’яким солодовим смаком, легким тоном пшениці та пряними відтінками.",
+          "Має слабку хмельову гіркоту, з приємно вираженими цитрусовими нотками та кислуватим після смаком.",
+          "Витримане в підвалах заводу 30 днів, при температурі +2ºC."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "beer-pshen-berdychiv",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/berdychiv-pshen.jpg",
+        "title": "Бердичівське пшеничне світле",
+        "subtitle": "Бердичівський пивний завод, пшеничне світле непастеризоване",
+        "alcohol": "4.5",
+        "density": "12",
+        "bitterness": "10",
+        "price": "62₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/berdychiv-m.jpg",
+            "alt": "пиво опілля,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/berdychiv-pshen-m.jpg",
+            "alt": "пиво опілля,зображення"
+          }
+        ],
+        "desc": [
+          "Світле пиво, що має чистий смак солоду та хмелю.",
+          "Не пастеризоване, без консервантів.",
+          "Витримане в підвалах заводу 30 днів, при температурі +2ºC."
+        ]
+      },
+      {
+        "id": 9,
+        "name": "beer-bierwelle",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/bierwelle.png",
+        "title": "Bierwelle PORTER",
+        "subtitle": "Бердичівський пивний завод, темний портер",
+        "alcohol": "5.6",
+        "density": "15.5",
+        "bitterness": "20",
+        "price": "74₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/bierwelle-m.JPG",
+            "alt": "пиво  ,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/bierwelle-m1.jpg",
+            "alt": "пиво  ,зображення"
+          }
+        ],
+        "desc": [
+          "Світле пиво, з м’яким солодовим смаком, легким тоном пшениці та пряними відтінками.",
+          "Має слабку хмельову гіркоту, з приємно вираженими цитрусовими нотками та кислуватим після смаком.",
+          "Витримане в підвалах заводу 30 днів, при температурі +2ºC."
+        ]
+      },
+      {
+        "id": 10,
+        "name": "beer-blanche-kyiv",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/blanche-de-kyiv.jpg",
+        "title": "Blanche De Kyiv",
+        "subtitle": "Український пивний холдинг, пшеничне світле нефільтроване",
+        "alcohol": "4.9",
+        "density": "11",
+        "bitterness": "11",
+        "price": "68₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/blanche-de-kyiv-m.jpg",
+            "alt": "пиво,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/blanche-de-kyiv-m1.jpg",
+            "alt": "пиво,зображення"
+          }
+        ],
+        "desc": [
+          "Пиво «Бланш де Київ» — це унікальний сорт світлого пива верхового бродіння, при виготовленні якого додають пшеницю. Кожен ковток пива «Бланш де Київ» дуже легко п’ється і не дуже п’янить, при цьому воно добре освіжає в спеку. Також, м’який смак напою з ніжною кислинкою і відсутністю гіркоти дивно гармонує з будь-якими салатами, морепродуктами, м’ясом, сирами і овочами."
+        ]
+      },
+      {
+        "id": 11,
+        "name": "beer-uman-medove",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/uman-medove.jpg",
+        "title": "Уманське медове",
+        "subtitle": "Уманьпиво, світле фільтроване",
+        "alcohol": "6.5",
+        "density": "16",
+        "bitterness": "17",
+        "price": "65₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/uman-medove-m.jpg",
+            "alt": "пиво,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/uman-medove-m-1.jpg",
+            "alt": "пиво,зображення"
+          }
+        ],
+        "desc": [
+          "Світле фільтроване пиво низового бродіння із солодово-медовим ароматом з квітковими нотками. Пиво золотистого кольору із середньозернистою, стійкою піною. Повнота смаку відчувається із першого ковтка. Пиво виготовляється зі світло-ячмінного солоду із додаванням квіткового меду"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "beer-waissburg-dunkel",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/weissburg-dunkel.jpg",
+        "title": "Waissburg Dunkel",
+        "subtitle": "Уманьпиво, темний лагер",
+        "alcohol": "4.7",
+        "density": "11",
+        "bitterness": "18",
+        "price": "65₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/waissburg-dunkel-m.png",
+            "alt": "пиво,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/waissburg-dunke-m1.png",
+            "alt": "пиво,зображення"
+          }
+        ],
+        "desc": [
+          "Темне пиво з палено-солодовим смаком та ароматом, виготовлене за класичною технологією темних лагерів.",
+          "Waissburg Dunkel має насичений шоколадний колір. Аромат пива солодовий з нотками міцної кави. Смак злегка солодкуватий з різноманітними тонами солодових зерен та карамелі, що переходить в легкий хмелевий післясмак. Темне пиво виготовляється з солоду типу Pilsner, Munich, карамельного та паленого солоду. Для охмелення пива використовується тонко ароматичний хміль з трав’яними та квітковими ароматами."
+        ]
+      },
+      {
+        "id": 13,
+        "name": "beer-waissburg-blanche",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/waiisburg-blanche.jpg",
+        "title": "Waissburg Blanche",
+        "subtitle": "Уманьпиво, нефільтроване пшеничне світле пиво",
+        "alcohol": "4.7",
+        "density": "11.5",
+        "bitterness": "12",
+        "price": "68₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/waissburg-blanche-m.JPG",
+            "alt": "пиво,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/wasiiburg-blanche-m1.jpeg",
+            "alt": "пиво,зображення"
+          }
+        ],
+        "desc": [
+          "Світле нефільтроване пиво виготовлене за бельгійською технологією пшеничного пива типу Wit (Віт)",
+          "Нефільтроване пшеничне світле пиво верхового бродіння молочно-жовтого кольору, що має складний і багатий аромат солоду та спецій в поєднанні з нотками фруктів. Смак злегка солодкуватий, пряно-солодовий з пікантним акцентом апельсину та коріандру. Для виготовлення цього унікального та витонченого пива використовується відбірний ячмінний солод (типу Pilsner) в поєднанні з більше ніж як 50% пшеничного солоду та з додаванням хмелю, що має цитрусовий аромат. Під час варіння додаються зерна коріандру та цедра апельсину."
+        ]
+      },
+      {
+        "id": 14,
+        "name": "beer-waissburg-lager",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/waissburg-lager.jpg",
+        "title": "Waissburg Lager",
+        "subtitle": "Уманьпиво, світлий лагер",
+        "alcohol": "4.7",
+        "density": "11",
+        "bitterness": "11",
+        "price": "62₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/waissburg-lager-m.jpg",
+            "alt": "пиво,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/waissburg-lager-m1.jpg",
+            "alt": "пиво,зображення"
+          }
+        ],
+        "desc": [
+          "Світле пиво, виготовлене за німецькою рецептурою відповідно до «Закону про чистоту пивоваріння»",
+          "Пиво солом’яного кольору зі стійкою піною. У вираженому ароматі домінує зернова солодкість. Помірна щільність. У смаку переважає все та ж чітка зернова солодкість із легкими фруктовими відтінками. У післясмаку добре виражена хмельова гіркота, яку можна сміливо назвати благородною, нетиповою для пива інших виробників на українському ринку. Напій зварений за німецькою технологією."
+        ]
+      },
+      {
+        "id": 15,
+        "name": "beer-proskurivske",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/hmelpyvo.JPG",
+        "title": "Проскурівське світле фільтроване",
+        "subtitle": "Хмельпиво, світле фільтроване",
+        "alcohol": "3.7",
+        "density": "11",
+        "bitterness": "12",
+        "price": "62₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/hmelpyvo-m.jpg",
+            "alt": "пиво,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/hmelpyvo-m1.png",
+            "alt": "пиво,зображення"
+          }
+        ],
+        "desc": [
+          "Легке пиво для повсякденного вгамування спраги з солодовим, слабовираженим солодкуватим, притаманним цикорію смаком та приємною гіркотою хмелю. На міжнародних дегустаціях нагороджений Гран-Прі, трьома золотими та одною бронзовою медалями."
+        ]
+      },
+      {
+        "id": 16,
+        "name": "nalyvka",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/nalyvka.jpg",
+        "title": "Наливка в асортименті",
+        "subtitle": "Наливки Royal Fruit Garden, пані Слива, пані Вишня",
+        "alcohol": "8.4",
+        "density": "",
+        "bitterness": "",
+        "price": "85₴",
+        "metering": "1л",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/nalyvka-m.jpg",
+            "alt": "Наливка,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/nalyvka-m1.jpg",
+            "alt": "Наливка,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/nalyvka-m2.jpg",
+            "alt": "Наливка,зображення"
+          }
+        ],
+        "desc": [
+          "Витончені настоянки з яскравими смаками стиглої вишні та сливи. Виготовлені за оригінальною рецептурою, що дозволяє зберегти не тільки натуральний смак, а й легкий присмак  кісточок та злегка помітні свіжі фруктові ноти. Солодкість напоїв відчутна, але помірна. Настоянки «Пані Вишня» та «Пані Слива» слід вживати злегка охолодженими й пити, смакуючи, невеличкими ковтками.",
+          "«Пані Вишня» та «Пані Слива» в першу чергу, звісно, жіночі напої, але й чоловіків не залишать байдужими."
+        ]
+      },
+      {
+        "id": 17,
+        "name": "vynp",
+        "type": "alcohol",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/vyno.jpg",
+        "title": "Вино CRAFFTOVA в асортименті",
+        "subtitle": "Каберне, Гранд Нуар, Велюто Нуар, Бело Россо, Емілія Б'янко, Мускат Білий, Фльор де Блан, Дольче Бела",
+        "alcohol": "10",
+        "density": "",
+        "bitterness": "",
+        "price": "82₴",
+        "metering": "1л",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vyno-m.jpg",
+            "alt": "Вино CRAFFTOVA,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vyno-m1.jpg",
+            "alt": "Вино CRAFFTOVA,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vyno-m2.jpg",
+            "alt": "Вино CRAFFTOVA,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vyno-m3.jpg",
+            "alt": "Вино CRAFFTOVA,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vyno-m4.jpg",
+            "alt": "Вино CRAFFTOVA,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vyno-m5.jpg",
+            "alt": "Вино CRAFFTOVA,зображення"
+          }
+        ],
+        "desc": [
+          "Каберне - сортове сухе червоне, Гранд Нуар - гранат (напівсолодке червоне), Велюто Нуар - напівсолодке червоне, Бело Россо - смородина (напівсолодке червоне), Емілія Б'янко - манго-абрикос (напівсолодке біле), Мускат Білий - напівсолодке біле, Фльор де Блан - персик (напівсолодке біле), Дольче Бела - слива-мигдаль (напівсолодке біле)",
+          "Для виробництва вин Крафтова використовують виноградники, які розташовані на «виноградній широті» між 46 і 47 градусами – саме на тій самій широті, що й відомі французькі регіони Бордо та Бургундія. У горбистій місцевості Українська Бессарабія природно поєднує в собі довге сонячне літо та коротку порівняно м'яку зиму з частими снігопадами, що дозволяє вирощувати рясні високоякісні врожаї. Поєднання чорноземів та піщаних ґрунтів з горбистій місцевістю забезпечує природну основу для виноробства з незапам'ятних часів.",
+          "Історія виноробства регіону налічує щонайменше 1500 років. На площі 1200 га вирощуємо найбільш підходящі сорти винограду. Виноробня обладнана сучасним європейським обладнанням для переробки винограду, зберігання виноматеріалів та розливу вина. Найкращі фахівці галузі докладають зусиль для створення чудового продукту, який буде відповідати очікуванням навіть найвишуканіших шанувальників вина. Ми об'єднали багаторічні традиції виноробства нашої країни із сучасними всесвітніми технологіями. Наш бездоганний продукт доповнюється креативними та дизайнерськими ідеями та спирається на ретельно продуману стратегію."
+        ]
+      },
+      {
+        "id": 18,
+        "name": "chips-assortment",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/chips.jpg",
+        "title": "Чипси картопляні",
+        "subtitle": "Зі смаками сиру, бекону, паприки, зелень, курка гриль",
+        "price": "25₴",
+        "metering": "1уп",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/chips-m.jpg",
+            "alt": "чіпси,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/chips.jpg",
+            "alt": "чіпси,зображення"
+          }
+        ],
+        "desc": [
+          "Чудово смакують під пінне. Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст",
+          "Чудово смакують під пінне. Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст Далі даммі тескст"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "grinky-hvyliasti",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/grinky.jpg",
+        "title": "Грінки \"Хвилясті\"",
+        "subtitle": "Хрін, бекон, сир, паприка, сметана з зеленню, часник, смажений стейк, копчений лосось, креветка в вершковому соусі, васабі, томат-базилік, гриби в сметанному соусі.",
+        "price": "35₴",
+        "metering": "1уп",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/grinky-m.jpg",
+            "alt": "Грінки хвилясті,зображення"
+          }
+        ],
+        "desc": [
+          "Сухарики-грінки Хвилясті, які вони?",
+          "Свіжий хліб, приправи виготовлені на натуральній основі або натуральних ароматизаторах, унікальна форма, великий асортимент смаків, якість, поживність",
+          "Не вірите, що все це можливо поєднати в одному продукті? Спробуйте і переконайтесь самі."
+        ]
+      },
+      {
+        "id": 20,
+        "name": "grinky-craft",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/grinky-craft.jpg",
+        "title": "Грінки КРАФТ Шумер",
+        "subtitle": "В асортименті",
+        "price": "35₴",
+        "metering": "1уп",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/grinky-craft-m.jpg",
+            "alt": "Грінки хвилясті,зображення"
+          }
+        ],
+        "desc": [
+          "Грінки житньо-пшеничні зі смаками: часник, холодець і хрін, томат, качка по пекінські, сало і гірчиця, гриби в сметані, телятина з аджикою, мюнхенські ковбаски. Пакування по 100 грам."
+        ]
+      },
+      {
+        "id": 21,
+        "name": "grinky-domashni",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/grinky-domashni.jpg",
+        "title": "Домашні гріночки",
+        "subtitle": "В асортименті",
+        "price": "32₴",
+        "metering": "1уп",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/grinky-domashni-m.jpg",
+            "alt": "Грінки домашні,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/grinky-domashni-m1.jpg",
+            "alt": "Грінки домашні,зображення"
+          }
+        ],
+        "desc": [
+          "Грінки Домашні, гріночки житньо-пшеничні по 100гр в упаковці, в асортименті."
+        ]
+      },
+      {
+        "id": 22,
+        "name": "vuha",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/vuha.jpg",
+        "title": "Вуха свинячі, в асортименті",
+        "subtitle": "М'ясокомбінат РІАЛ. Часник, хрон, паприка, пряні.",
+        "price": "50₴",
+        "metering": "1уп",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vuha-m.jpg",
+            "alt": "Вуха свинячі,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vuha-m1.jpg",
+            "alt": "Вуха свинячі, зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vuha-m2.jpg",
+            "alt": "Вуха свинячі, зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/vuha-m3.jpg",
+            "alt": "Вуха свинячі, зображення"
+          }
+        ],
+        "desc": [
+          "Грінки Домашні, гріночки житньо-пшеничні по 100гр в упаковці, в асортименті."
+        ]
+      },
+      {
+        "id": 23,
+        "name": "anchous",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/anchous.JPG",
+        "title": "Анчоус солено-сушений",
+        "subtitle": "Снеки закуски до пива, рибні снеки",
+        "price": "35₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/anchous-m.jpg",
+            "alt": "Анчоус,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/anchous-m1.jpg",
+            "alt": "Анчоус, зображення"
+          }
+        ],
+        "desc": [
+          "Анчоус солоно-сушений — це сама дрібна рибка в лінійці сушених морепродуктів. Незважаючи на свій маленький розмір, вона користується великим попитом. Раніше незнайомий, екзотичний смак цього морського делікатесу навіяний нас із заходу, незважаючи на те, що добувається риба в Андаманському морі біля узбережжя Таїланду.",
+          "Це дрібна рибка сріблястого кольору відноситься до сильно солоних закусок і доходить до споживача вже без голови. Анчоус сушений дуже маленького розміру, тому його часто їдять «як насіння»."
+        ]
+      },
+      {
+        "id": 24,
+        "name": "arahis",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/arahis.jpg",
+        "title": "Арахіс смажений в асортименті",
+        "subtitle": "Закуска до пива. Смаки: сіль, сир",
+        "price": "13₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/arahis-m.jpg",
+            "alt": "Арахіс,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/arahis.jpg",
+            "alt": "Арахіс, зображення"
+          }
+        ],
+        "desc": [
+          "Арахіс солоний виготовляється зі звичайного арахісу за допомогою легкого обсмажування з додаванням солі та спецій.",
+          "Арахіс – це смачний горіх, але ще смачніше, коли він обсмажений і солоний. Такі ласощі оцінять справжні гурмани."
+        ]
+      },
+      {
+        "id": 25,
+        "name": "gustira",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/gustira.jpg",
+        "title": "Густіра в'ялена",
+        "subtitle": "Риба в'ялена солона.",
+        "price": "18₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/gustira-m1.jpg",
+            "alt": "Густіра,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/gustira-m.jpg",
+            "alt": "Густіра, зображення"
+          }
+        ],
+        "desc": [
+          "Шанувальники в'яленої риби в курсі, наскільки смачна в'ялена густера. Ця риба стане в нагоді як для оформлення столу, так і як пивна добавка.",
+          "Густера хороша у будь-якому вигляді, але особливо шанована серед народу у в'яленому вигляді як незмінна складова пивної тарілки.",
+          "Густера - невелика прісноводна риба сімейства карпоподібних. В'ялення цієї риби – процес, що дозволяє одержати продукт без додавання хімічних речовин. Біле ніжне м'ясо густери вважається дієтичним завдяки невисокому вмісту жирів"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "smugastyk",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/smugastyk.JPG",
+        "title": "Жовтий смугастик",
+        "subtitle": "Ставрида малосольона засушена",
+        "price": "38₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/smugastyk-m.jpg",
+            "alt": "Смугастик жовтий,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/smugastyk-m1.JPG",
+            "alt": "Смугастик жовтий, зображення"
+          }
+        ],
+        "desc": [
+          "Жовтий смугастик- улюблена закуска до свіжого охолодженого пива. Його можна сміливо назвати найпопулярнішим снеком.",
+          "Якщо ви не пробували цей снек - рекомендуємо, адже смак цієї риби перевірений часом"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "taran",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/taran.jpg",
+        "title": "Тарань в'ялена",
+        "subtitle": "Риба в'ялена солона",
+        "price": "30₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/taran-m.jpg",
+            "alt": "тарань,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/taran-m1.jpg",
+            "alt": "тарань, зображення"
+          }
+        ],
+        "desc": [
+          "У тарані міститься дуже багато білка, який легко засвоюється організмом людини. Також у ній є хром, фтор, нікель, молібден, сірка, хлор. Білок із сушеної риби допомагає регулювати обмін речовин в організмі. Риб'ячий жир регулює згортання крові, тому що в ньому містяться жирні кислоти, які допомагають знижувати рівень «поганого» холестерину, тому ризик отримати інсульт знижується. Йод сприяє правильній роботі щитовидки. У в'яленій рибі містяться вітаміни групи В, вітамін А, Е, магній, залізо, фтор, які є важливими для нормальної роботи мозку, серця.",
+          "Багато людей вважають за краще вживати сушену рибку як делікатес до пива. Класикою вважається в'ялена вобла. Але не кожен любитель може відрізнити смачну рибу на вигляд. Смачна і хороша таранка має приємний в'ялений смак, гарний колір, без плісняви, вона не надто м'яка, але й не пересушена, без жовтизни. Слід затулити рибкою джерело світла, і тоді можна побачити, як вона засвітиться."
+        ]
+      },
+      {
+        "id": 28,
+        "name": "ikra-sudaka",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/ikra-sudaka.JPG",
+        "title": "Ікра судака сушена",
+        "subtitle": "Продукт рибний солоний, сушений",
+        "price": "55₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/ikra-sudaka-m.jpg",
+            "alt": "Ікра судака,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/ikra-sudaka-m1.jpg",
+            "alt": "Ікра судака, зображення"
+          }
+        ],
+        "desc": [
+          "Неповторний смак цього делікатесу доповнить будь-яку вечірку. Ідеально підходить для світлих сортів пива. Має зернисту структуру з легким солодкуватим присмаком.",
+          "Ікра судака - це джерело білка, йоду, поліненасичених кислот. Ікра судака багата на вітаміни А, D, C, PP, групи В, містить кальцій, калій, цинк, фосфор, йод, залізо та інші корисні речовини. Практично не містить вуглеводів, а багата на білки, поліненасичені жирні кислоти Омега-3, антиоксиданти. Ікра судака засвоюється організмом людини майже повністю. Ікра судака - це справжній делікатес, який часто використовується в кулінарії. Вона солиться, пресується, потім твердне, після чого виходять маленькі брусочки, що вживаються в їжу або додають інші страви. Ікра судака - це дуже поживний продукт, причому як у в'яленому, так і у свіжому вигляді."
+        ]
+      },
+      {
+        "id": 29,
+        "name": "ikrianyk-norvezkyi",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/ikrianyk-norvezkyi.jpg",
+        "title": "Ікряник \"Норвезький\"",
+        "subtitle": "Продукт рибний солоний, сушений",
+        "price": "25₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/ikrianyk-norvezkyi-m.jpg",
+            "alt": "Ікряник Норвезький,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/ikrianyk-norvezkyi-m1.jpg",
+            "alt": "Ікряник Норвезький, зображення"
+          }
+        ],
+        "desc": [
+          "Ікряники – палички з лосося та морського Азовського Бичка. Надзвичайно смачні та корисні. Чудова закуска до пива. Смачний, корисний, натуральний снек."
+        ]
+      },
+      {
+        "id": 30,
+        "name": "kabanosy",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kabanosy.jpg",
+        "title": "Кабаноси",
+        "subtitle": "Класичні кабаноси, виготовлені з відбірної свинини",
+        "price": "35₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kabanosy-m.jpg",
+            "alt": "Кабаноси,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kabanosy-m1.jpg",
+            "alt": "Кабаноси, зображення"
+          }
+        ],
+        "desc": [
+          "Класичні кабаноси, виготовлені з відбірної свинини, які мають легкий солонуватий та копчений смак. Довгі та тонкі ковбаски походять з Польщі та з самого початку з’явились як закуска для мисливців, які могли би їсти їх на ходу, де б вони не були. Їх було зручно повісити на шию або руку, що дозволяло швидко підкріпитись."
+        ]
+      },
+      {
+        "id": 31,
+        "name": "kalmar-struzhka",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kalmar-struzhka.jpg",
+        "title": "Кальмар стружка",
+        "subtitle": "Солено-сушений морепродукт",
+        "price": "50₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kalmar-struzhka-m1.jpg",
+            "alt": "Кальмар стружка,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kalmar-struzhka-m.jpg",
+            "alt": "Кальмар стружка, зображення"
+          }
+        ],
+        "desc": [
+          "Кальмар - закуска, яка має найніжнішим смаком і просто тане на язиці. Вона відрізняється білим кольором з невеликим жовтуватим відтінком і містить величезну кількість білка, вітамінів і корисних мікроелементів. Делікатний смак стружки кальмара і його особливий аромат подобається не тільки дітям, а й багатьом дорослим. За рахунок солоного присмаку і виняткового аромату її вживають як закуску під пиво."
+        ]
+      },
+      {
+        "id": 32,
+        "name": "kalmar-struzhka-krab",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kalmar-struzhka-krab.jpg",
+        "title": "Кальмар стружка зі смаком краба",
+        "subtitle": "Солено-сушений морепродукт",
+        "price": "50₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kalmar-struzhka-krab-m1.jpg",
+            "alt": "Кальмар стружка зі смаком краба,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kalmar-struzhka-krab-m.jpg",
+            "alt": "Кальмар стружка зі смаком краба, зображення"
+          }
+        ],
+        "desc": [
+          "Крабова стружка – ароматна, ніжна та просто дуже смачна – це вона, стружка кальмара зі смаком краба!\n\nСмак кальмара чудово гармонує з тонкими нотками краба, і це поєднання народжує приємний, солодкувато-солоний смак. Закуска, яка буквально тане у роті. Неможливо відірватися! Натурально та смачно. Без добавок."
+        ]
+      },
+      {
+        "id": 33,
+        "name": "kilce-kalmara",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kilce-kalmara.jpg",
+        "title": "Кільце кальмара",
+        "subtitle": "Солено-сушений морепродукт",
+        "price": "50₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kilce-kalmara-m.jpg",
+            "alt": "Кільце кальмара,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kilce-kalmara-m1.jpg",
+            "alt": "Кільце кальмара, зображення"
+          }
+        ],
+        "desc": [
+          "Кільця кальмара – це кільця, що зберегли природну ніжну текстуру кальмара, із золотавим кольором та копченим ароматом.",
+          "У своєму складі Кільця кальмару містять вітаміни:  С ,  Е ,  групи В ,  РР  та мінеральні речовини:  кальцій ,  магній ,  мідь ,  залізо ,  йод ,  молібден ,  кобальт ,  нікель ,  фосфор  і  натрій , багато білка. Крім цього в кальмарі копченим міститься найважливіша амінокислота таурин, яка сприятливо на серцево-судинну систему, бере участь в обмінних процесах у тканинах очей (calorizator). Продукт сприяє швидкому насиченню та легко засвоюється людським організмом."
+        ]
+      },
+      {
+        "id": 34,
+        "name": "koriushka",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/koriushka.jpg",
+        "title": "Корюшка",
+        "subtitle": "Солено-сушений морепродукт",
+        "price": "44₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/koriushka-m.jpg",
+            "alt": "Корюшка,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/koriushka-m1.jpg",
+            "alt": "Корюшка, зображення"
+          }
+        ],
+        "desc": [
+          "Корюшка - рід сімейства Корюшкові, що входить в загін Лососеподібні. Насичений рибний смак, що досягається шляхом ретельного просушування, однозначно здивує та порадує будь-якого цінителя. До позитивних якостей балтійської корюшки також відноситься практично повна відсутність дрібних кісточок. За рахунок цього очищення не займе занадто багато часу і насолоджуватися насиченим смаком риби можна буде вже практично відразу."
+        ]
+      },
+      {
+        "id": 35,
+        "name": "kranch",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kranch.jpg",
+        "title": "Кранч мікс смаків",
+        "subtitle": "Арахіс в оболонці зі смаком васабі, бекону, сиру",
+        "price": "12₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kranch-m.jpg",
+            "alt": "Кранч,зображення"
+          }
+        ],
+        "desc": [
+          "Кранч мікс – це арахіс в оболонці зі смаком васабі, бекону, сиру. Кранч припаде до смаку любителям горіхів. Завдяки новим способам нанесення різних смаків, арахіс поступово посідає почесне місце серед улюблених ласощів.",
+          "Ідеальна закуска для літніх вечорів, в подорожах, та за будь-якої нагоди.",
+          "Що до стереотипу, що кранч, це виключно снек до пива, давно минулому. І ще трішки статистики у 2016р., КРАНЧ здобув - \"Золоту медаль\" на дегустаційному конкурсі \"WorldFood Ukraine\"."
+        ]
+      },
+      {
+        "id": 36,
+        "name": "kukurudza",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kukurudza.jpg",
+        "title": "Кукурудза",
+        "subtitle": "Зі смаками: мед і гірчиця, барбек'ю, сир",
+        "price": "13₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kukurudza-m.jpg",
+            "alt": "Кукурудза,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kukurudza-m1.jpg",
+            "alt": "Кукурудза,зображення"
+          }
+        ],
+        "desc": [
+          "Хрустка солона закуска, виготовлена з обсмажених зерен кукурудзи.",
+          "Ароматні зерна кукурудзи ідеально поєднуються з різними сортами світлого та темного пива. Така закуска чудово замінить звичний попкорн під час перегляду фільму. Кукурудза відмінно урізноманітнить смакові уподобання."
+        ]
+      },
+      {
+        "id": 37,
+        "name": "pautynka-kalmara",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/pautynka-kalmara.jpg",
+        "title": "Павутинка кальмара",
+        "subtitle": "Солено-сушений морепродукт",
+        "price": "55₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/pautynka-kalmara-m.jpg",
+            "alt": "Павутинка кальмара,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/pautynka-kalmara-m1.jpg",
+            "alt": "Павутинка кальмара,зображення"
+          }
+        ],
+        "desc": [
+          "Кальмар павутинка - ніжний, ситний і смачний снек, який може виступати як в якості закуски, так і самостійним продуктом для перекусу на ходу. Закуска виготовлена з цільної сушеної тушки кальмара, розділеної на тонкі смужки, що створюють ефект павутини. Цей снек успішно доповнить своїм смаком більшість популярних сортів пива."
+        ]
+      },
+      {
+        "id": 38,
+        "name": "kalmar-peruanskyi",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kalmar-peruanskyi.jpg",
+        "title": "Пласт кальмара перуанський",
+        "subtitle": "Солено-сушений морепродукт",
+        "price": "55₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kalmar-peruanskyi-m.jpg",
+            "alt": "Пласт кальмара перуанський,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kalmar-peruanskyi-m1.jpg",
+            "alt": "Пласт кальмара перуанський,зображення"
+          }
+        ],
+        "desc": [
+          "М'ясо кальмара волокнисте і насичене білками. Смажиться на арахісовій олії, що надає йому особливого солодкуватого смаку з копченим ароматом. Ідеально доповнить класичні сорти пива і сорти з високим рівнем гіркоти."
+        ]
+      },
+      {
+        "id": 39,
+        "name": "plitka",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/plitka.jpg",
+        "title": "Плітка вʼялена",
+        "subtitle": "Риба вʼялена прісноводна",
+        "price": "24₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/plitka-m.jpg",
+            "alt": "Плітка вʼялена,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/plitka-m1.jpg",
+            "alt": "Плітка вʼялена,зображення"
+          }
+        ],
+        "desc": [
+          "ПЛІТКА один із найсмачніших річкових представників закуски до пива. М'ясо плотви жирне, соковите та дуже смачне. Часто трапляється із ікрою. Добре підходить до пива із класичним смаком."
+        ]
+      },
+      {
+        "id": 40,
+        "name": "syr-solomka",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/syr-solomka.jpg",
+        "title": "Сир соломка копчена",
+        "subtitle": "Сир сичужний м'який сулугуні \"Соломка\"",
+        "price": "20₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/syr-solomka-m.jpg",
+            "alt": "Сир соломка копчена,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/syr-solomka-m1.jpg",
+            "alt": "Сир соломка копчена,зображення"
+          }
+        ],
+        "desc": [
+          "Сир соломка копчена - це смачний і ароматний сир, який має неперевершений смак і текстуру. Зроблена за традиціним рецепотом сирів сулугуні",
+          "Сулугуні називають грузинські сири, у яких яскраво виражений кисломолочний, трохи солонуватий смак і аромат. Його консистенція повинна бути еластичною і щільною."
+        ]
+      },
+      {
+        "id": 41,
+        "name": "smuga-lososia",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/smuga-lososia.jpg",
+        "title": "Смуга лосося ікряна",
+        "subtitle": "Палички з лосося сушено-підкопчені",
+        "price": "30₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/smuga-lososia-m.jpg",
+            "alt": "Смуга лосося ікряна,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/smuga-lososia-m1.jpg",
+            "alt": "Смуга лосося ікряна,зображення"
+          }
+        ],
+        "desc": [
+          "Рибна паличка з лосося на даний момент є одним з найпопулярніших снеків в нашій країні, користуючись попитом багатьох споживачів в якості закуски до пива. Продукту не потрібні спеціальні умови для зберігання. Снек виробляється з якісної сировини на високотехнологічному обладнанні. Через насичений і оригінальний смак даний снек є прекрасною закускою до пива."
+        ]
+      },
+      {
+        "id": 42,
+        "name": "tunec",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/tunec.jpg",
+        "title": "Тунець",
+        "subtitle": "Рибна закуска, засолена, сушена",
+        "price": "35₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/tunec-m.jpg",
+            "alt": "Тунець,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/tunec-m1.jpg",
+            "alt": "Тунець,зображення"
+          }
+        ],
+        "desc": [
+          "Стружка тунця — це рибна закуска, засолена, оброблена, що надає їй особливий колорит, популярну в усіх шанувальників сушених снеків до пива. Тунець дуже корисний, для багатьох функцій організму людини, оскільки багатий на вітаміни С, D і групи B, містить багато мікро- та макроелементів і нежирні кислоти, корисні нашому організму, яких так бракує щодня в нашому раціоні."
+        ]
+      },
+      {
+        "id": 43,
+        "name": "fistashka",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/fistashka.jpg",
+        "title": "Фісташка",
+        "subtitle": "Фісташка “Каліфорнія” смажена з сіллю",
+        "price": "40₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/fistashka-m.jpg",
+            "alt": "Фісташка,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/fistashka-m1.jpg",
+            "alt": "Фісташка,зображення"
+          }
+        ],
+        "desc": [
+          "Фісташки служать відмінним джерелом міді, марганцю та вітаміну В6, а також білків, дієтичної клітковини, тіаміну та фосфору.",
+          "Фісташки містять до 90% \"хороших\" жирів, які знижують рівень холестерину в крові та ризик серцевих захворювань. Вчені з Державного університету Пенсільванії з'ясували, що вживання двох жменьок фісташок на день допомагає знизити рівень холестерину на 9-12%."
+        ]
+      },
+      {
+        "id": 44,
+        "name": "hamon",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/hamon.jpg",
+        "title": "Хамон по-Козацьки",
+        "subtitle": "Слайси свинячі солено-сушені",
+        "price": "55₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/hamon-m.jpg",
+            "alt": "Хамон по-Козацьки,зображення"
+          }
+        ],
+        "desc": [
+          "Хамон - це сиров'ялена свиняча задня нога, яка характеризується щільним мармуровим м'ясом, приємним ароматом та насиченим смаком. Для створення продукції вирощують в Іспанії спеціальні породи свиней та виготовують їх за продуманим раціоном."
+        ]
+      },
+      {
+        "id": 45,
+        "name": "chehon",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/chehon.jpg",
+        "title": "Чехонь в'ялена",
+        "subtitle": "Риба вʼялена прісноводна",
+        "price": "35₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/chehon-m.jpg",
+            "alt": "Хамон по-Козацьки,зображення"
+          }
+        ],
+        "desc": [
+          "Хамон - це сиров'ялена свиняча задня нога, яка характеризується щільним мармуровим м'ясом, приємним ароматом та насиченим смаком. Для створення продукції вирощують в Іспанії спеціальні породи свиней та виготовують їх за продуманим раціоном."
+        ]
+      },
+      {
+        "id": 46,
+        "name": "dizhonski",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/dizhonski.jpg",
+        "title": "Чипси курячі \"По-Діжонськи\"",
+        "subtitle": "Чипси з мʼяса курки \"по-Діжонськи\"",
+        "price": "45₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/dizhonski-m.jpg",
+            "alt": "Чипси курячі по-Діжонськи,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/dizhonski-m1.jpg",
+            "alt": "Чипси курячі по-Діжонськи,зображення"
+          }
+        ],
+        "desc": [
+          "Курячі чипси з додаванням Діжонської гірчиці – це смачна натуральна закуска до пива, виготовлена з куриного філе з додаванням натуральних спецій.",
+          "М’ясні джерки, виготовлені особливим способом, мають міцну текстуру, відмінний смак і бездоганний аромат. Завдяки добавленню паприки м’ясо стає більш пікантним."
+        ]
+      },
+      {
+        "id": 47,
+        "name": "miaso-chipsy",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/miaso-chipsy.jpg",
+        "title": "Чипси курячі з часником",
+        "subtitle": "М'ясні чипси",
+        "price": "45₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/miaso-chipsy-m.jpg",
+            "alt": "Чипси курячі з часником,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/miaso-chipsy-m1.jpg",
+            "alt": "Чипси курячі з часником,зображення"
+          }
+        ],
+        "desc": [
+          "Чіпси курки з часником - це смачна популярна м'ясна закуска до пива. Чіпси являють собою тонко нарізані пластини сиров'яленого курячого м'яса."
+        ]
+      },
+      {
+        "id": 48,
+        "name": "yantarna",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/yantarna.jpg",
+        "title": "Рибка янтарна з перцем",
+        "subtitle": "Янтарна рибка з перцем, шматочки",
+        "price": "44₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/yantarna-m.jpg",
+            "alt": "Рибка янтарна з перцем,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/yantarna-m1.jpg",
+            "alt": "Рибка янтарна з перцем,зображення"
+          }
+        ],
+        "desc": [
+          "Янтарна рибка з перцем - сама популярна закуска до пива! В міру солі, солодощі та гостроти. Тоненька шкірка, багато основного продукту, досить м'ясиста, в міру суха. Те, що потрібно до пінному! Зазвичай для виробництва цього снека використовують філе путасу або минтая. При виготовленні такої закуски готове філе формують, нарізки соломкою або шматочки однакового розміру і форми."
+        ]
+      },
+      {
+        "id": 49,
+        "name": "liasch",
+        "type": "appetizer",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/liasch.jpg",
+        "title": "Лящ в'ялений",
+        "subtitle": "Риба в'ялена річкова",
+        "price": "17₴",
+        "metering": "50гр",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/liasch-m.jpg",
+            "alt": "Лящ в`ялений,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/liasch-m1.jpg",
+            "alt": "Лящ в`ялений,зображення"
+          }
+        ],
+        "desc": [
+          "Лящ в'ялений є дуже корисним продуктом. Має багатий вітамінний склад:  B1 ,  B2 ,  E ,  PP . Що ж до мінеральних речовин, у лящі присутні багато  заліза ,  кальцію . Високий вміст  молібдену ,  нікелю ,  фосфору ,  фтору ,  хлору ,  хрому  та  цинку."
+        ]
+      },
+      {
+        "id": 50,
+        "name": "lemonade",
+        "type": "ba",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/limonad.jpg",
+        "title": "Напій безалкогольний «Лимонад» в кегах",
+        "subtitle": "Вінницька харчосмакова фабрика",
+        "price": "27₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/lemonade-m.jpg",
+            "alt": "лимонад,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/lemonade-m1.jpg",
+            "alt": "лимонад,зображення"
+          }
+        ],
+        "desc": [
+          "Лимонад - легкий освіжаючий напій, який виготовляється в найкращих традиціях вітчизняної безалкогольної промисловості.",
+          "Цей напій прийшов до нас із Франції - країни з багатою кулінарною історією (саме від французького «limonade», що означає щось на кшталт «лімонізований», і виникло слово «лимонад»).",
+          "З'явившись у епоху Петра I, лимонад отримав розповсюдження в усіх пострадянський країнах. Згадуючи цю назву, ми - дорослі - поринаємо у дитинство, згадуємо прогулянки з батьками в парках, сімейні свята."
+        ]
+      },
+      {
+        "id": 51,
+        "name": "mohito",
+        "type": "ba",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/mohito.jpg",
+        "title": "Напій безалкогольний «Мохіто» в кегах",
+        "subtitle": "Вінницька харчосмакова фабрика",
+        "price": "27₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/mohito-1.jpg",
+            "alt": "мохіто,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/mohito-m.jpg",
+            "alt": "мохіто,зображення"
+          }
+        ],
+        "desc": [
+          "Мохіто — натуральний газирований напій на основі соку лайма та м’яти.",
+          "Батьківщина напою Мохіто — Куба, де він вважається неофіційним національним напоєм. Комбінація солодкого та освіжаючого цитрусу з м’ятою робить цей напій одним з найпопулярніших літніх напоїв у світі.",
+          "Ми пропонуємо Вам насолодитися чудовим смаком освіжаючого напою, який чудово втамовує спрагу."
+        ]
+      },
+      {
+        "id": 52,
+        "name": "kvas",
+        "type": "ba",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/kvas.jpg",
+        "title": "Квас «Хлібний» в кегах",
+        "subtitle": "Вінницька харчосмакова фабрика",
+        "price": "30₴",
+        "metering": "1кг",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kvas-m.jpg",
+            "alt": "мохіто,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/kvas-1.jpg",
+            "alt": "мохіто,зображення"
+          }
+        ],
+        "desc": [
+          "Квас — безалкогольний напій, що ідеально утамовує спрагу. По смакових і поживних властивостях квас перевершує усі напої.",
+          "Вперше квас був виготовлений більше тисячі років тому, але і в наші дні залишається дуже популярним.",
+          "Квас, виготовлений із зернової сировини, має не тільки відмінні смакові якості, але і нормалізує процеси обміну в організмі людини, регулює діяльність шлунково-кишкового тракту, перешкоджає розмноженню шкідливих мікробів, позитивно впливає на сердечно-судинну систему."
+        ]
+      },
+      {
+        "id": 53,
+        "name": "stella",
+        "type": "ba",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/stella.jpg",
+        "title": "Пиво Stella Artois",
+        "subtitle": "Пиво безалкогольне 0.0%, Ж/Б 0.33",
+        "price": "50₴",
+        "metering": "1шт",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/stella-m.jpg",
+            "alt": "Стелла Артуа,зображення"
+          }
+        ],
+        "desc": [
+          "Легкий преміальний табір від всесвітньо відомого бренду Stella  Artois . Пиво світло-солом'яного кольору, із приємним зерновим ароматом. Смак пива Stella  Artois  поєднує легку зернову кислинку та слабку гіркоту хмелю. При наливанні у склянку дає дуже стійку піну."
+        ]
+      },
+      {
+        "id": 54,
+        "name": "sik-bob",
+        "type": "ba",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/sik-bob.jpg",
+        "title": "Сік SpongeBob",
+        "subtitle": "Сік без цукру 200 мл, в асортименті",
+        "price": "20₴",
+        "metering": "1шт",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/sik-bob-m.jpg",
+            "alt": "сік боб,зображення"
+          }
+        ],
+        "desc": [
+          "Натуральний концентрований сік.",
+          "В асортименті: яблуко-виноград, яблуко-персик, яблуко-полуниця, мультифрукт"
+        ]
+      },
+      {
+        "id": 55,
+        "name": "bocal-glass",
+        "type": "souvenirs",
+        "imgPreview": "https://ivanchikap.github.io/beerstation/img/bocal.jpg",
+        "title": "Келихи для пива",
+        "subtitle": "Гарний подарунок для поціновувачів вишуканого посуду.",
+        "price": "150₴",
+        "metering": "1шт",
+        "isInShop": true,
+        "discount": false,
+        "modalImages": [
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/bocal-m.jpg",
+            "alt": "бокал,зображення"
+          },
+          {
+            "src": "https://ivanchikap.github.io/beerstation/img/bocal-m1.jpg",
+            "alt": "бокал,зображення"
+          }
+        ],
+        "desc": [
+          "Келихи для пива для поціновувачів пінного."
+        ]
+      }
+    ],
+    "generalInfo": {
+      "phoneHref": "tel:+380971470000",
+      "phone": "+38(097)147-00-00",
+      "address": "с.Загальці, вул.Якась 5",
+      "googleMapsLink": "https://www.google.com/maps/search/%D0%BF%D1%96%D1%81%D0%BA%D1%96%D0%B2%D0%BA%D0%B0+%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F+%D1%82%D0%B5%D1%82%D0%B5%D1%80%D1%96%D0%B2/@50.6992069,29.5986911,20.75z",
+      "timeStart": "6:00",
+      "timeFinish": "23:00",
+      "dns": "https://beerstation.in.ua"
+    }
+  },
+  "shops": [
+    {
+      "id": "b3f63be2-9465-4f94-8853-e473c07c1fae",
+      "name": "Beer_Station_1",
+      "address": "c.Пісківка, Привокзальна 2"
+    },
+    {
+      "id": "7f406a1c-e000-4908-bfbe-e1a8feaad0e5",
+      "name": "Beer_Station_2",
+      "address": "с.Мигалки, Колгосп №1"
+    },
+    {
+      "id": "7f406a1c-e000-4908-bfbe-e1a8f234test",
+      "name": "Beer_Station_3",
+      "address": "с. Загальці, Центральна 5"
+    }
+  ]
 }
